@@ -1,0 +1,91 @@
+.oneBlock {
+    background-color: #e9e6e6;
+    border-radius: 20px;
+    &:hover{
+        box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
+    }
+}
+.commentBlock {
+    margin-top: 20px;
+    // background-color: #ada3a345;
+    padding: 10px 14px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    .topBlock {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .authorname {
+        font-size: 15px;
+    }
+    .commentDate {
+        font-size: 0.7rem;
+        color: gray;
+    }
+    .comment {
+        width: 600px;
+        margin-top: 10px;
+        padding-left: 45px;
+        .commentText {
+            font-size: 15px;
+        }
+    }
+}
+.replyBtn {
+    align-self: center;
+    margin-right: 45px;
+    cursor: pointer;
+}
+.reply {
+    background-color: #d9d4d4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 8px 410px 8px 0;
+    position: relative;
+    border-radius: 40px;
+    padding: 8px 20px;
+}
+
+.iconBlock {
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 10px;
+    img {
+        width: 100%;
+    }
+}
+
+.addCommentBlock {
+    position: sticky;
+    bottom: 0px;
+    background-color: #ababab;
+    padding: 20px;
+    .textInput {
+        width: 75%;
+        input {
+            width: 100%;
+            height: 28px;
+            border-radius: 12px;
+            border: none;
+            font-size: 15px;
+            padding: 0 12px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    .block {
+        display: flex;
+        align-items: center;
+        .btn-block {
+            button {
+                padding: 6px 18px;
+                font-size: 14px;
+                border: none;
+            }
+        }
+    }
+}

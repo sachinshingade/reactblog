@@ -1,0 +1,35 @@
+.postsBlock {
+    margin: 10px 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .postCards {
+        max-width: 518px;
+        min-height: 445px;
+        max-height: 445px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        // text-overflow: ellipsis;
+        box-shadow: 0 1.5em 2em -1em #999;
+        margin-bottom: 10px;
+        padding: 60px;
+        // af
+        justify-content: space-between;
+        // af
+        .postTitle {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .postBody {
+            padding: 10px;
+            max-height: 225px;
+            overflow: hidden;
+        }
+        .authorName {
+            margin: 15px;
+            text-align: center;
+        }
+    }
+}

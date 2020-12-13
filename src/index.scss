@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+button {
+  background-color: #282c34;
+  color: white;
+  padding: 10px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  border: unset;
+  &:hover {
+    background-color: #282c34ad;
+    color: white;
+  }
+}

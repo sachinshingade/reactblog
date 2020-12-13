@@ -1,0 +1,22 @@
+.postDetailBlock {
+    margin: 10px 140px;
+    height: calc(100vh - 101.53px);
+    .authorBlock {
+        display: flex;
+        align-items: flex-end;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .postContent {
+        margin: 20px 0;
+        padding-right: 250px;
+        .postTitle {
+            font-size: 2.25rem;
+            margin-bottom: 40px;
+        }
+        .postBody {
+            font-size: 18px;
+            padding-left: 20px;
+        }
+    }
+}
